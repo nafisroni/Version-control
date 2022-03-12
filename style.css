@@ -1,0 +1,37 @@
+body {
+    background: fixed;
+    background-color: #142F43;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#tentang {
+    background-image: url(img/ngent.png);
+    /* background-color: #1b3041; */
+
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    /* background-image: url('img/PANDAWA.png'); */
+}
+
+.navbar .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #f7ea3e;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+
+.navbar .nav-item .nav-link-active::before,
+.navbar .nav-item .nav-link:hover::before {
+    transform: scale(1);
+}

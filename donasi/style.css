@@ -1,0 +1,20 @@
+body {
+    background: fixed;
+    background-color: #142F43;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#tentang {
+    /* background-image: url(img/bg2.jpg); */
+    background-color: #1d405e;
+
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    /* background-image: url('img/PANDAWA.png'); */
+}
